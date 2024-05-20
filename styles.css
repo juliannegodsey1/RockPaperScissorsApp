@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --yellow: #f1be32;
+  --golden-yellow: #feac32;
+}
+
+
+
+body {
+  background-color: #051f39;
+  font-family: "Poetsen One", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin: 15px 0 20px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff; 
+
+}
+
+.btn {
+  cursor: pointer;
+  font-family: "Poetsen One", sans-serif;
+  width: 100px;
+  margin: 10px;
+  color: #fff;
+  background-color: #c53a9d;
+  background-image: linear-gradient(#c53a9d, #a93ac5);
+  border-color: #c53a9d;
+  border-radius: 50px;
+  border-width: 2px;
+  transition: transform 0.3s, box-shadow 0.3s; 
+
+}
+
+.btn:hover {
+  background-image: linear-gradient(#c53a9d, #a93ac5);
+  transform: scale(1.1); 
+  box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.8); 
+}
+
+.rules-container {
+  padding: 10px 0;
+  margin: 30px auto;
+  border-radius: 15px;
+  border: 5px solid #c53a9d;
+  background-color: #fff;
+  color: #000;
+}
+
+.rules-container ul {
+  list-style-type: none;
+}
+
+.rules-container p {
+  margin: 10px 0;
+}
+
+@media (min-width: 760px) {
+  .rules-container {
+    width: 60%;
+  }
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  font-size: 1.2rem;
+}
+
+.score {
+  font-weight: 500;
+}
+
+.results-container {
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+#winner-msg {
+  margin-top: 25px;
+}
+
+#reset-game-btn {
+  display: none;
+  margin: 20px auto;
+}
