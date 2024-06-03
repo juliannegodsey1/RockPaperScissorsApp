@@ -27,3 +27,6 @@ A simple Rock, Paper, Scissors game where you play against the computer. The fir
 1. Clone the repository or download the files.
 2. Open `index.html` in your web browser to start the game.
 
+## Credits
+
+This project was created as part of the FreeCodeCamp curriculum.
